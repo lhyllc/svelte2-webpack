@@ -121,7 +121,7 @@ module.exports = {
         },
         proxy: {
             '/api': {
-                target: 'http://beta.erpstrong.com',
+                target: '',
                 pathRewrite: {
                     '^/api': '/api'
                 },
